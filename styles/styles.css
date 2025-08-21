@@ -1,0 +1,173 @@
+.lg {
+    height: 10vh;
+    width: auto;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: black;
+}
+h1 {
+    font-family: 'Roboto', sans-serif;
+    color: gold;
+}
+.face {
+    height: 5vh;
+    width: auto;
+}
+
+.inst {
+    height: 5vh;
+    width: auto;
+}
+
+.what {
+    height: 5vh;
+    width: auto;
+}
+
+.twi {
+    height: 5vh;
+    width: auto;
+}
+
+h2 {
+    color: gold;
+}
+
+li {
+    list-style: none;
+    padding: 10px;
+    border-radius: 5px;
+    border: 3px solid greenyellow;
+    transition: background-color 0.3s ease;
+}
+
+a {
+    text-decoration: none;
+    color: gold;
+}
+
+
+.inline {
+    display: inline;
+}
+
+.inline-block{ 
+    display: inline-block;
+    height: 30vh;
+    width: 45vw;
+}
+
+.sticky{
+    position: sticky;
+    top: 0px;
+    background-color: aqua;
+}
+
+.flex{
+    border: 2px solid yellow;
+    display: flex;
+    flex-direction: row;
+}
+
+.caja {
+    margin: 10px;
+    background-color: blueviolet;
+    height: 15vh;
+    width: 25vw;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.caja:hover {
+    transform: scale(1.05);
+    background-color: lightcoral;
+}
+
+.flex{
+    display: flex;
+    gap: 20px;
+}
+
+.flex section {
+    flex: 2;
+    animation: slideInLeft 1.5s ease-out forwards;
+}
+
+.flex aside {
+    flex: 1;
+    animation: slideInLeft 1.5s ease-out forwards;
+}
+
+header{
+    background-color: gold;
+    position: sticky;
+    top: 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    animation: slideIn 1s ease-out;
+    padding: 10px;
+}
+
+ul{
+    
+    display: flex;
+    list-style: none;
+}
+
+li{
+    margin: 0 10px;
+    border: 3px solid greenyellow;
+    border-radius: 5px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+.img-home{
+    height: 40vh;
+    width: auto;
+}
+
+label{
+    color: antiquewhite;
+}
+
+main {
+    color: blanchedalmond;
+    align-items: center;
+    justify-items: center;
+    }
+
+    header { 
+        animation: hide;
+    }
+@keyframes identifier {
+    0%{
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+@keyframes slideInLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
