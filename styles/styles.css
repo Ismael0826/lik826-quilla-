@@ -228,3 +228,28 @@ body {
 .btn-comprar:hover {
     background: #1f6391;
 }
+
+nav ul li {
+    background-color: black; 
+    padding: 10px 20px;
+    border-radius: 8px;
+    transition: all 0.3s ease-in-out; 
+    cursor: pointer;
+}
+
+nav ul li a {
+    color: gold;               
+    font-weight: bold;
+    text-decoration: none;
+    background: transparent;  
+    display: inline-block;
+    transition: all 0.3s ease-in-out;
+}
+nav ul li:hover {
+    background-color: gold;    
+    transform: scale(1.1);     
+    box-shadow: 0 0 15px gold;
+}
+nav ul li:hover a {
+    color: black;  
+}
